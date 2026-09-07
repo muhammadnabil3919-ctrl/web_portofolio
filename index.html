@@ -1,0 +1,461 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website Saya</title>
+
+    <!-- Menghubungkan HTML dengan CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Website Saya</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </nav>
+
+    <!-- Bagian Home -->
+    <section id="home" class="home">
+        <div class="teks">
+            <h1>Selamat Datang!</h1>
+
+            <p>
+                Ini adalah website pertama saya.
+                Saya sedang belajar membuat website
+                menggunakan HTML dan CSS.
+            </p>
+
+            <a href="#tentang" class="tombol">
+                Selengkapnya
+            </a>
+        </div>
+
+        <div class="gambar">
+            <img src="ucing.png" alt="Foto kucing">
+        </div>
+    </section>
+
+    <!-- Bagian Tentang -->
+    <section id="tentang" class="tentang">
+        <h1>Tentang Saya</h1>
+
+        <p>
+            Ini adalah bagian tentang website saya.
+        </p>
+    </section>
+
+    <!-- Bagian Kontak -->
+    <section id="kontak" class="kontak">
+        <h1>Kontak</h1>
+
+        <p>Email: contoh@email.com</p>
+    </section>
+
+</body>
+</html>
+```
+<img src="ucing.npg" alt="Foto kucing">
+<h1>Selamat Datang 👋</h1>
+
+<p>Ini website saya 😊</p>
+
+<button>Mulai 🚀</button>
+<div class="konten">
+    <div class="teks">
+        <h1>Selamat Datang 🐱</h1>
+        <p>Ini adalah website saya.</p>
+    </div>
+
+    <div class="gambar">
+        <img src="ucing.npg" alt="Foto kucing">
+    </div>
+</div>
+<img src="ucing.jpeg" alt="Foto kucing">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Kucing</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🐱 Game Klik Kucing</h1>
+
+    <p>Skor: <span id="skor">0</span></p>
+    <p>Waktu: <span id="waktu">10</span> detik</p>
+
+    <div id="game">
+        <button id="kucing">🐱</button>
+    </div>
+
+    <button onclick="mulaiGame()">Mulai Game</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cat Hunter 🐱</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🐱 CAT HUNTER</h1>
+        <p class="subtitle">Tangkap kucing sebanyak mungkin!</p>
+
+        <!-- INFORMASI GAME -->
+        <div class="info">
+
+            <div class="box">
+                <span>🏆</span>
+                <p>Skor</p>
+                <strong id="skor">0</strong>
+            </div>
+
+            <div class="box">
+                <span>⭐</span>
+                <p>Level</p>
+                <strong id="level">1</strong>
+            </div>
+
+            <div class="box">
+                <span>❤️</span>
+                <p>Nyawa</p>
+                <strong id="nyawa">3</strong>
+            </div>
+
+            <div class="box">
+                <span>⏱️</span>
+                <p>Waktu</p>
+                <strong id="waktu">30</strong>
+            </div>
+
+        </div>
+
+        <!-- AREA GAME -->
+        <div id="game">
+
+            <div id="pesan">
+                Tekan tombol mulai untuk bermain 🎮
+            </div>
+
+            <img
+                id="kucing"
+                src="ucing.jpeg"
+                alt="Kucing"
+            >
+
+        </div>
+
+        <!-- TOMBOL -->
+        <button id="mulai" onclick="mulaiGame()">
+            🎮 MULAI GAME
+        </button>
+
+        <!-- HIGH SCORE -->
+        <div class="highscore">
+            🏆 High Score:
+            <span id="highScore">0</span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>🚀 Space Shooter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🚀 SPACE SHOOTER</h1>
+        <p class="subtitle">Hancurkan semua musuh!</p>
+
+        <!-- INFO GAME -->
+        <div class="info">
+
+            <div class="box">
+                <span>🏆</span>
+                <p>Skor</p>
+                <strong id="skor">0</strong>
+            </div>
+
+            <div class="box">
+                <span>❤️</span>
+                <p>Nyawa</p>
+                <strong id="nyawa">3</strong>
+            </div>
+
+            <div class="box">
+                <span>⭐</span>
+                <p>Level</p>
+                <strong id="level">1</strong>
+            </div>
+
+            <div class="box">
+                <span>⏱️</span>
+                <p>Waktu</p>
+                <strong id="waktu">60</strong>
+            </div>
+
+        </div>
+
+        <!-- AREA GAME -->
+        <div id="game">
+
+            <div id="pesan">
+                🚀<br>
+                Tekan tombol MULAI untuk bermain!
+            </div>
+
+            <!-- PLAYER -->
+            <div id="player">🚀</div>
+
+        </div>
+
+        <!-- TOMBOL MULAI -->
+        <button id="mulai" onclick="mulaiGame()">
+            🎮 MULAI GAME
+        </button>
+
+        <!-- KONTROL -->
+        <div class="controls">
+
+            <button onclick="gerakKiri()">⬅️</button>
+
+            <button onclick="tembak()">🔫</button>
+
+            <button onclick="gerakKanan()">➡️</button>
+
+        </div>
+
+        <div class="highscore">
+            🏆 High Score:
+            <span id="highScore">0</span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>🚀 Space Shooter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🚀 SPACE SHOOTER</h1>
+        <p class="subtitle">Hancurkan semua musuh!</p>
+
+        <!-- INFO GAME -->
+        <div class="info">
+
+            <div class="box">
+                <span>🏆</span>
+                <p>Skor</p>
+                <strong id="skor">0</strong>
+            </div>
+
+            <div class="box">
+                <span>❤️</span>
+                <p>Nyawa</p>
+                <strong id="nyawa">3</strong>
+            </div>
+
+            <div class="box">
+                <span>⭐</span>
+                <p>Level</p>
+                <strong id="level">1</strong>
+            </div>
+
+            <div class="box">
+                <span>⏱️</span>
+                <p>Waktu</p>
+                <strong id="waktu">60</strong>
+            </div>
+
+        </div>
+
+        <!-- AREA GAME -->
+        <div id="game">
+
+            <div id="pesan">
+                🚀<br>
+                Tekan tombol MULAI untuk bermain!
+            </div>
+
+            <!-- PLAYER -->
+            <div id="player">🚀</div>
+
+        </div>
+
+        <!-- TOMBOL MULAI -->
+        <button id="mulai" onclick="mulaiGame()">
+            🎮 MULAI GAME
+        </button>
+
+        <!-- KONTROL -->
+        <div class="controls">
+
+            <button onclick="gerakKiri()">⬅️</button>
+
+            <button onclick="tembak()">🔫</button>
+
+            <button onclick="gerakKanan()">➡️</button>
+
+        </div>
+
+        <div class="highscore">
+            🏆 High Score:
+            <span id="highScore">0</span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>🐍 Snake Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🐍 SNAKE GAME</h1>
+
+        <p class="subtitle">
+            Makan apel dan jadilah ular terbesar!
+        </p>
+
+        <!-- INFORMASI -->
+        <div class="info">
+
+            <div class="box">
+                <span>🏆</span>
+                <p>Skor</p>
+                <strong id="skor">0</strong>
+            </div>
+
+            <div class="box">
+                <span>⭐</span>
+                <p>Level</p>
+                <strong id="level">1</strong>
+            </div>
+
+            <div class="box">
+                <span>🏅</span>
+                <p>High Score</p>
+                <strong id="highScore">0</strong>
+            </div>
+
+        </div>
+
+        <!-- AREA GAME -->
+        <div id="game">
+
+            <div id="pesan">
+                🐍<br><br>
+                Tekan tombol MULAI
+            </div>
+
+            <div id="snake"></div>
+
+            <div id="food">🍎</div>
+
+        </div>
+
+        <!-- TOMBOL -->
+        <button id="mulai" onclick="mulaiGame()">
+            🎮 MULAI GAME
+        </button>
+
+        <!-- KONTROL HP -->
+        <div class="controls">
+
+            <button onclick="ubahArah('up')">
+                ⬆️
+            </button>
+
+            <div>
+                <button onclick="ubahArah('left')">
+                    ⬅️
+                </button>
+
+                <button onclick="ubahArah('down')">
+                    ⬇️
+                </button>
+
+                <button onclick="ubahArah('right')">
+                    ➡️
+                </button>
+            </div>
+
+        </div>
+
+        <p class="petunjuk">
+            Gunakan tombol ⬅️ ⬆️ ⬇️ ➡️ pada keyboard
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
